@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login {
+  width: 400px;
+  background-color: #ffffffe8;
+  margin: 100px auto;
+}
+.login h1 {
+  text-align: center;
+  color: #013a40;
+  font-size: 54px;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+
+.login form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+}
+.login form label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: #013a40;
+  color: #ffffff;
+}
+
+.logicon {
+  width: 30px;
+  height: 30px;
+  filter: invert(1);
+}
+
+.navtopicon{
+  width: 25px;
+  height: 25px;
+  filter: invert(1);
+  padding-right: 5px;
+}
+
+.wronglogin {
+  flex: left;
+  color: red;
+  display: none;
+}
+
+.wrongcp {
+  flex: left;
+  color: red;
+  display: none;
+}
+
+.login form input[type='password'],
+.login form input[type='text'] {
+  font-size: 20px;
+  width: 310px;
+  height: 60px;
+  border: 1px solid #013a40;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+.login form input[type='submit'] {
+  font-size: 25px;
+  width: 50%;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #013a40;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+
+.navtop {
+  background-color: #013a40;
+  height: 80px;
+  width: 100%;
+  border: 0;
+}
+.navtop div {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+.navtop div h1,
+.navtop div a {
+  display: inline-flex;
+  align-items: center;
+}
+.navtop div h1 {
+  flex: 1;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+  color: #eaebed;
+  font-weight: normal;
+}
+.navtop div a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #c1c4c8;
+  font-weight: bold;
+  width: 100px;
+}
+.navtop div a i {
+  padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+  color: #eaebed;
+}
+
+.content h2{
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content h2 {
+  margin: 0;
+  padding: 25px 0;
+  font-size: 22px;
+  border-bottom: 1px solid #e0e0e3;
+  color: #02735E;
+}
+.content > p,
+.content > div {
+  margin: 25px 0;
+  padding: 25px;
+}
+.content > p table td,
+.content > div table td {
+  padding: 5px;
+}
+.content > p table td:first-child,
+.content > div table td:first-child {
+  font-weight: bold;
+  color: #013a40;
+  padding-right: 15px;
+}
+.content > div p {
+  padding: 5px;
+  margin: 0 0 10px 0;
+}
+.content td {
+  font-size: 20px;
+}
+
+.resetpassword{
+  margin-top: 150px;
+}
+
+.resetpassword form label {
+  display: flex;
+  width: 200px;
+  height: 20px;
+  color: #000000;
+}
+
+.resetpassword form input[type='password']{
+  font-size: 15px;
+  width: 250px;
+  height: 30px;
+  border: 1px solid #013a40;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.resetpassword form input[type='submit'] {
+  font-size: 20px;
+  width: 10%;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #013a40;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+
+.create{
+  font-size: 20px;
+  width: 200px;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #013a40;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+.picturebox{
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 15px;
+  width: 200px;
+  background-color: #fffefe;
+  border: 1px solid #000000;
+}
+.galeriepicture{
+  width: 200px;
+  height: 200px;
+  border-bottom: 1px solid #000000;
+  padding: 3px 3px 3px 3px;
+
+}
+.picdes{
+margin: 0 auto;
+padding-left: 3px;
+}
+
+
+.create button{
+  width: 100px;
+  height: 30px;
+  background-color: #013a40;
+  color: #ffffff;
+}
+
+.new-post{
+  color: #fffefe;
+  padding: 25px 25px 25px 25px;
+  height: 500px;
+  background-color: #013a40;
+}
